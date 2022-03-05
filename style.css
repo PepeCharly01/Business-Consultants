@@ -33,8 +33,8 @@
     content: " | ";
   }
   .main {
-    height: 510px;
     background-color: rgba(9, 11, 146, 0.637);
+    display: flex;
   }
   .routes {
     display: inline-block;
@@ -50,7 +50,6 @@
   .content {
     display: inline-block;
     padding: 25px;
-    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
   }
   .footer {
@@ -58,5 +57,29 @@
     text-align: center;
     background-color: rgb(027, 200, 223);
     
+  }
+  @media (min-width: 320px) {
+    .content {
+      font-size: 12px;
+    }
+    .web-pages {
+      width: 40px;
+    }
+  }
+  @media (min-width: 750px) {
+    .content {
+      font-size: 20px;
+    }
+    .web-pages {
+      width: 140px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .content {
+      font-size: 16px;
+    }
+    .web-pages {
+      width: 250px;
+    }
   }
   
