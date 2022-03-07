@@ -59,6 +59,29 @@
   .emoji {
     padding: 5px;
   }
+  @media (max-width: 750px) {
+    .content {
+      font-size: 12px;
+    }
+    .web-pages {
+      width: 140px;
+    }
+    .nombre {
+      width: 120px;
+    }
+    .nav, .nav__list {
+      font-size: 12px;
+    }
+    .logo {
+      width: 20px;
+    }
+    .header .header__logo, .nombre {
+      display: flex;
+      justify-items: flex-start;
+      justify-content: space-between;
+      top: 2px;
+    }
+  }
   /* }
   @media (min-width: 320px) {
     .content {
